@@ -34,6 +34,11 @@
   .generate-list-item-status-color(@text-color-renamed, renamed);
   .generate-list-item-status-color(@text-color-modified, modified);
   .generate-list-item-status-color(@text-color-removed, removed);
+
+  // Hide icons
+  .icon:before {
+    display: none;
+  }
 }
 
 .select-list ol.list-group,
